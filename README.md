@@ -141,3 +141,30 @@ static | 기준 없음 | O
 relative | 요소 자신 | X
 absolute | 위치 상 부모 요소 | X
 fixed | 뷰포트 | X
+
+# 원시 HTML(Raw HTML)
+
+HTML 문법을 그대로 사용할 수 있다.
+
+동해물과 <u>백두산</u>이 마르고 닳도록<br/>
+하느님이 보우하사 우리나라 만세
+
+<a href="https://naver.com" title="NAVER로 이동!" target="_blank">NAVER</a>
+
+---
+
+<img width="70" src="https://img.etoday.co.kr/pto_db/2020/12/600/20201211102156_1553278_1200_600.jpg" alt='NAVER'>
+
+# 수평선(Horizontal Rule)
+
+하이픈(-)을 세번 넣어주면된다.<br/>
+
+---
+
+에스터리스크를 세번 넣어주면된다.<br/>
+
+---
+
+언더바를 세번 넣어주면된다.
+
+---
