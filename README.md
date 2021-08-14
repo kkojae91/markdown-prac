@@ -73,3 +73,56 @@
 
 - 이미지 + 하이퍼링크 삽입 [!+[대체 텍스트]+(url)]+(url)
   [![NAVER](https://img.etoday.co.kr/pto_db/2020/12/600/20201211102156_1553278_1200_600.jpg)](https://naver.com)
+
+# 인용문(BlockQuote)
+
+> "> " 꺽세괄호 닫는 기호를 사용하고 띄어쓰기  
+> 남의 말이나 글에서 직접 또는 간접적으로 따온 문장.  
+> (네이버 국어 사전)
+
+> 인용문을 작성하세요!
+>
+> > 중첩된 인용문에는 ">" 추가
+> >
+> > > 중중첩된 인용문에는 ">>" 추가
+> > > 중중첩된 인용문에는 ">>" 추가
+> > > 중중첩된 인용문에는 ">>" 추가
+
+# 인라인(Inline) 코드 강조
+
+빽틱 기호로 감사준다.  
+CSS 에서 `background` 혹은
+`background-image` 속성으로 요소에 배경 이미지를 삽입 할 수 있습니다.
+
+# 블록(Block) 코드 강조
+
+- 빽틱3개 사용하는 언어 빽틱3개 를 사용하면 블록 코드 강조를 사용할 수 있다.
+- html
+
+  ```html
+  <a href="https://www.google.co.kr/">GOOGLE</a>
+  ```
+
+- css
+  ```css
+  .list > li {
+    position: absolute;
+    top: 30px;
+  }
+  ```
+- javascript
+  ```javascript
+  function func() {
+    const a = "AAA";
+    return a;
+  }
+  ```
+- bash(터미널)
+  ```bash
+  $ git commit -m 'Study Markdown'
+  ```
+- plaintext
+  ```plaintext
+    동해물과 백두산이 마르고 닳도록
+    하느님이 보우하사 우리나라 만세
+  ```
