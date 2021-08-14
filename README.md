@@ -55,16 +55,21 @@
 
 # 링크(Links)
 
-<a href="https://google.com">GOOGLE</a>  
-[GOOGLE](https://google.com)
+- 링크로 이동 [텍스트]+(url)  
+  <a href="https://google.com">GOOGLE</a>  
+  [GOOGLE](https://google.com)
 
-<a href="https://naver.com" title="NAVER로 이동!">NAVER</a>  
-[NAVER](https://naver.com "NAVER로 이동!")
+- 링크로 이동 + title 추가 [텍스트]+(url "title 텍스트")  
+  <a href="https://naver.com" title="NAVER로 이동!">NAVER</a>  
+  [NAVER](https://naver.com "NAVER로 이동!")
 
-<a href="https://naver.com" title="NAVER로 이동!" target="_blank">NAVER</a>
+- 링크로 이동 Html target="\_blank" 마크다운 문법은 지원하지 않는다. a tag로 작성  
+  <a href="https://naver.com" title="NAVER로 이동!" target="_blank">NAVER</a>
 
 # 이미지(Images)
 
-![HEROPY](https://img.etoday.co.kr/pto_db/2020/12/600/20201211102156_1553278_1200_600.jpg)
+- 이미지 삽입 !+[대체 텍스트]+(url)
+  ![HEROPY](https://img.etoday.co.kr/pto_db/2020/12/600/20201211102156_1553278_1200_600.jpg)
 
-[![NAVER](https://img.etoday.co.kr/pto_db/2020/12/600/20201211102156_1553278_1200_600.jpg)](https://naver.com)
+- 이미지 + 하이퍼링크 삽입 [!+[대체 텍스트]+(url)]+(url)
+  [![NAVER](https://img.etoday.co.kr/pto_db/2020/12/600/20201211102156_1553278_1200_600.jpg)](https://naver.com)
